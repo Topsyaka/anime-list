@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+#modal{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#app {
+    width: 100%;
+    position: relative;
+}
+
+.inner-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    
+}
+
+.modal-container {
+    width: 600px;
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
